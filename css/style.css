@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+}
+
+input {
+	border: none;
+	margin: auto;
+	border-bottom: 1px black solid;
+	text-align: center;
+	width: 80%;
+	padding: 5px;
+
+}
+
+.button {
+	margin-left: 40%;
+	margin-top: 2em;
+	border: none;
+	background: #212020;
+	color: #fff;
+	padding: 8px;
+	border-radius: 7px;
+	cursor: pointer;
+
+}
+
+.button:hover {
+	background: #4b87d2;
+}
+
+.top {
+	color: #fff;
+	text-align: center;
+	background: #4b87d2;
+	padding: 3em;
+	margin-bottom: 1em;
+}
+
+.top h1 {
+	color: #fff;
+}
+
+.reference-img {
+	position: fixed;
+	margin-left: 1em;
+}
+
+.reference-img h1 {
+	font-size: 1em;
+}
+
+.reference-img img {
+	width: 20%;
+	height: auto;
+	border: 2px #ccc solid;
+}
+
+.reference-img img:hover {
+	transform: matrix(4, 0, 0, 4, 300, 100);
+}
+
+#container {
+	width: 60%;
+	margin: auto;
+	padding: 1em;
+	border: 1px #ccc solid;
+	padding-bottom: 3em;
+}
+
+header {
+	width: 100%;
+
+
+}
+
+
+header .header-wrapper .top-left-header {
+	float: left;
+	text-align: center;
+	margin-top: 2em;
+}
+
+header .header-wrapper .top-right-header {
+	float: right;
+	text-align: center;
+	margin-top: 2em;
+}
+
+header .header-wrapper h1 {
+	font-size: 1em;
+}
+
+header .header-wrapper h2 {
+	font-size: 0.7em;
+}
+
+header .header-wrapper input {
+	width: 100%;
+	margin-bottom: 0.3em;
+}
+
+
+.title {
+	margin-top: 2em;
+
+}
+
+.title h2 {
+	font-size: 1em;
+	margin-top: 1em;
+}
+
+.title .title-head h1 {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.title .title-name {
+	float: left;
+	margin-top: 1em;
+}
+
+.title .title-name h1 {
+
+	font-size: 1.8em;
+	text-align: left;
+	font-weight: bold;
+}
+
+.title .title-number {
+	float: right;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.title h2 .right-shift {
+	margin-right: 1em;
+}
+
+.title input {
+	width: 90%
+}
+
+.details {
+	margin-top: 2em;
+}
+
+.details h3 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.details input {
+	margin-left: 2em;
+}
+
+.bottom {
+	margin-top: 1em;
+}
+
+.bottom h3 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.bottom .signatures {
+	margin-top: 2em;
+}
+
+.bottom .signatures .signatures-1 {
+	float: left;
+}
+
+.bottom .signatures .signatures-2 {
+	float: right;
+}
+
+footer {
+	margin-top: 3em;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	background: #4b87d2;
+	padding: 3em;
+}
